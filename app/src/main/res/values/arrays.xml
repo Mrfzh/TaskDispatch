@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="method">
+        <item>优先权优先调度</item>
+        <item>时间片轮转法调度</item>
+    </string-array>
+</resources>

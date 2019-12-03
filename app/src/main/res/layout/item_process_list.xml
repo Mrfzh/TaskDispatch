@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:minHeight="30dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tv_item_process_list_task_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="作业名称"
+            android:textColor="#222222"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_item_process_list_commit_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="提交时间"
+            android:textColor="#222222"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_item_process_list_service_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="服务时间"
+            android:textColor="#222222"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_item_process_list_priority"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="优先权"
+            android:textColor="#222222"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
