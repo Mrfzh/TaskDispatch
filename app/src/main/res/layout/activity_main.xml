@@ -175,7 +175,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/sp_main_method_list"
-        android:text="进程列表"
+        android:text="作业列表"
         android:textColor="#666666"
         android:textSize="20sp"
         android:gravity="start|center"
